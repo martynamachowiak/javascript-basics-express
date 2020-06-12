@@ -1,14 +1,14 @@
-const sayHello = (string) => `Hello, ${string}!`;
+const sayHello = string => `Hello, ${string}!`;
 
-const uppercase = (string) => string.toUpperCase();
+const uppercase = string => string.toUpperCase();
 
-const lowercase = (string) => string.toLowerCase();
+const lowercase = string => string.toLowerCase();
 
-const countCharacters = (string) => string.length;
+const countCharacters = string => string.length;
 
-const firstCharacter = (string) => string[0];
+const firstCharacter = string => string[0];
 
-const firstCharacters = (string, n) => string.slice(0, n);
+const firstCharacters = (string, n = 1) => string.slice(0, n);
 
 module.exports = {
   sayHello,
