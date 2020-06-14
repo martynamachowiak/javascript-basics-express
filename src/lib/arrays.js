@@ -14,7 +14,8 @@ const csvStringToArray = string => {
 };
 
 const addToArray = (element, array) => {
-  console.log(array.push(element));
+  array.push(element);
+  return array;
 };
 
 const addToArray2 = (element, array) => {
